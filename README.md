@@ -1,4 +1,4 @@
-Teaching lecture about system development using the example of a fullstack application
+### Teaching lecture about system development using the example of a fullstack application
 
 May, 31st, 2023, 1:30 pm
 
@@ -109,8 +109,8 @@ computer. But for other szenarios an outside access could be helpful.
 
 There are many programs out there with which you can publish a web service to the whole world.
 Don't be afraid, some of these services uses very cryptic server names, that your service can't be found accidentally.
-One and free of this services is [ngrok](https://ngrok.com/). After signing up (for free), downloading the single executable,
-setup the authentification by calling 'ngrok config add-authtoken <your-auth-token>'
+A free services is [ngrok](https://ngrok.com/). After signing up (for free), downloading the single executable,
+setup the authentification by calling 'ngrok config add-authtoken your-auth-token'
 you can start accessing your backend by typing
 
     ngrok http 8080
@@ -122,6 +122,10 @@ or
 to access the frontend.
 
 ### Option 2. Deploying on Google App Engine
+
+If you have an Google Cloud account (there is some free test month), you can deploy your app to the Google App Engine.
+This step is of course much more complicated because it offers so many possibilities to rent cloud services and deploy
+your application.
 
 
 ## Step 6 : Deploying (CI/CD)
@@ -145,6 +149,8 @@ The lecture stops here, because this topic will lasts a lot of more pages...
 
 # Exercise
 
+    
+    
 # Quiz
 
 ## Links and Sources
