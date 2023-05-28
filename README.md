@@ -159,14 +159,14 @@ into a testing or production stage. There are different triggers (e.g. push, pul
 and a lot of plugins available to transfer the software package to Google App Engine, Amazon Web Services,
 Microsoft Azure, or any other server.
 
-The lecture stops here, because this topic will lasts a lot of more pages...
+The lecture stops here, because this topic will take a lot of more pages...
 
 # Exercise
 
 To improve and check your expertise I added an exercise in the subfolder.
-If it is too difficult to find the solution I give some tipps in another subfolder.
+If it is too difficult to find the solution I give some hints in another subfolder.
 Please try first to solve the problem without the help, but after several hours of failure you
-can read my tipps.
+can read my hints.
 
 # Quiz
 
