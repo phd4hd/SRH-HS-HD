@@ -1,0 +1,122 @@
+[
+{
+  "title": "The Da Vinci Code",
+  "authors": [
+    "Dan Brown"
+  ],
+  "isbn10": "0385504209",
+  "year": "2003",
+  "cover": "https://covers.openlibrary.org/b/id/12521602-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "Fantastic Mr. Fox",
+  "authors": [
+    "Roald Dahl", "Quentin Blake"
+  ],
+  "isbn10": "0140306765",
+  "year": "1975",
+  "cover": "https://covers.openlibrary.org/b/id/12374431-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "The Kite Runner",
+  "authors": [
+    "Khaled Hosseini"
+  ],
+  "isbn10": "1585473634",
+  "year": "2003",
+  "cover": "https://covers.openlibrary.org/b/id/9248224-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "Influence",
+  "authors": [
+    "Robert B. Cialdini"
+  ],
+  "isbn10": "0062937650",
+  "year": "1983",
+  "cover": "https://covers.openlibrary.org/b/id/8284333-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "Something under the bed is drooling",
+  "authors": [
+    "Bill Watterson"
+  ],
+  "isbn10": "0836218256",
+  "year": "1988",
+  "cover": "https://covers.openlibrary.org/b/id/8289082-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "The Pillars of the Earth",
+  "authors": [
+    "Ken Follett"
+  ],
+  "isbn10": "0688046592",
+  "year": "1989",
+  "cover": "https://covers.openlibrary.org/b/id/12497169-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "A Wrinkle in Time",
+  "authors": [
+    "Madeleine L'Engle"
+  ],
+  "isbn10": "0374386137",
+  "year": "1962",
+  "cover": "https://covers.openlibrary.org/b/id/12490973-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "A Long Way Gone",
+  "authors": [
+    "Ishmael Beah"
+  ],
+  "isbn10": "0374105235",
+  "year": "2007",
+  "cover": "https://covers.openlibrary.org/b/id/11593342-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "Charlotte's Web",
+  "authors": [
+    "E. B. White"
+  ],
+  "isbn10": "0064410935",
+  "year": "1952",
+  "cover": "https://covers.openlibrary.org/b/id/8461813-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "Flowers in the Attic",
+  "authors": [
+    "V. C. Andrews"
+  ],
+  "isbn10": "0007436823",
+  "year": "1979",
+  "cover": "https://covers.openlibrary.org/b/id/10208877-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "The seven habits of highly effective people",
+  "authors": [
+    "Stephen R. Covey", "Sean Covey"
+  ],
+  "isbn10": "0671708635",
+  "year": "1989",
+  "cover": "https://covers.openlibrary.org/b/id/7018591-L.jpg",
+  "reviewIds": []
+},
+{
+  "title": "Ender's Game",
+  "authors": [
+    "Orson Scott Card"
+  ],
+  "isbn10": "0812550706",
+  "year": "1985",
+  "cover": "https://covers.openlibrary.org/b/id/12009430-L.jpg",
+  "reviewIds": []
+}
+]
