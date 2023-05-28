@@ -6,7 +6,7 @@ May, 31st, 2023, 1:30 pm
 
 ## Before: a few information about me
 
-A short introduction of myself can be found [in these slides](link)
+A short introduction of myself can be found [in these slides](introduction_dillinger.pdf)
 
 # Building a fullstack application (Techniques, Tools, and Frameworks)
 
@@ -77,19 +77,21 @@ a new database with the '+' sign next to the database headline. In the dialog yo
 and can also define a collection 'books'. These two information should be fine to create the database.
 
 After creating the collection has no data, so we can add some data by clicking 'ADD DATA' and then 'Import JSON or CVS file'.
-When you download the 'books.json' file, then select this one, leave to import dialog as it is, and click 'Import'.
+When you download the ['books.json'](books.json) file, then select this one, leave to import dialog as it is, and click 'Import'.
 You have now 12 documents (and 1 indexes) in your database.
 
-The other needed collection 'reviews' don't need to be setup, it will be automaticall created by the backend as soon as
+The other collection 'reviews' don't need to be setup, it will be automaticall created by the backend as soon as
 data comes in.
 
 ## Step 3 : Writing the backend
 
-Find the instructions and the source code of the **backend** [here on GitHub](https://github.com/phd4hd/fullstack-backend)
+Find the instructions and the source code of the **backend** in a separate [repository](https://github.com/phd4hd/fullstack-backend)
+here on GitHub.
 
 ## Step 4 : Writing the frontend
 
-Again, find the instruction and the source code of the **frontend** also [here on GitHub](https://github.com/phd4hd/fullstack-frontend)
+Again, find the instruction and the source code of the **frontend** also in a separate
+[repository](https://github.com/phd4hd/fullstack-frontend) here on GitHub.
 
 ## Step 5 : Deploying
 
@@ -114,7 +116,7 @@ computer. But
     - [Source Code of the frontend](https://github.com/GavinLonDigital/movie-gold-v1)
 - Books and Cover images
   - [Open Library](https://openlibrary.org/)
-  - [Books JSON Datafile]()
+  - [Books JSON Datafile](books.json)
 - Cloud, Storage and Computing Power provider
   - [Google Cloud](https://cloud.google.com/)
   - [Amazon Web Services](https://aws.amazon.com)
