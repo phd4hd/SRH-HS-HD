@@ -93,19 +93,31 @@ here on GitHub.
 Again, find the instruction and the source code of the **frontend** also in a separate
 [repository](https://github.com/phd4hd/fullstack-frontend) here on GitHub.
 
-## Step 5 : Deploying
+## Step 5 : Testing
 
 The example we discussed is for the development stage only. We have a local Mongo database (if you're using the virtual machine),
 the backend is running on the local machine (via port 8080) and the frontend is also running on the local machine (port 80).
 
 The next stage is the testing stage. Therefore the QA team should have access to both server, the backend and the frontend.
 If your QA team is working in the same network segment the development setting might be fine to access the services from another
-computer. But 
+computer. But for other szenarios an outside access could be helpful.
 
 ### Option 1. Using tunnel (e.g. ngrok)
 
-
 ### Option 2. Deploying on Google App Engine
+
+
+## Step 6 : Deploying (CI/CD)
+
+Whenever you change something on your code either on the backend or frontend you have to go through the steps of publishing
+your software on a server again and again. There is this idea of automatically deploying the software even in the testing stage,
+called Continuous Integration (CI), and still deploying it manually when all tests have passed, called Continuous Delivery (CD).
+If you plan to automate the last step, when the test system is also fully automated and of superb quality, you can call it
+Continuous Deployment.
+
+This can be achieved by using [GitHub Actions](https://docs.github.com/en/actions)
+(because we use this side to host our source code repository anyway), next to many other CI/CD tools (e.g.
+[Jenkins](https://www.jenkins.io/), [Octopus](https://octopus.com/), [Spinnaker](https://spinnaker.io/).
 
 
 ## Links and Sources
@@ -121,9 +133,8 @@ computer. But
   - [Google Cloud](https://cloud.google.com/)
   - [Amazon Web Services](https://aws.amazon.com)
   - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
-- Database provide
+- Database provider and tools
   - [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-- Database tools
   - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - Other stuff
   - [JDK Development Kit 17.0.7 downloads](https://www.oracle.com/java/technologies/downloads/#java17)
