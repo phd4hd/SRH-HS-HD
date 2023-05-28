@@ -8,14 +8,17 @@ May, 31st, 2023, 1:30 pm
 
 A short introduction of myself can be found [in these slides](introduction_dillinger.pdf)
 
-# Building a fullstack application (Techniques, Tools, and Frameworks)
+# Building a fullstack application
 
 A fullstack application consist of more than one software components, normally a backend and a frontend.
 In most cases the backend handles to connection to a database (e.g. MongoDB) and the frontend consist of an user interface (e.g. website).
 
+This application is about books borrowed from [Open Library](https://openlibrary.org/) and their reviews.
+
 ## Step 1 : Setting up the database
 
-We will use a MongoDB NoSQL Document Store database to manage the application data. It's about books borrowed from [Open Library](https://openlibrary.org/) and their reviews.
+We will use a MongoDB NoSQL Document Store database to manage the application data.
+Any other SQL or NoSQL database would be fine.
 
 ### Option 1. Using a virtual machine (e.g. Oracle Virtual Box)
 
@@ -104,6 +107,20 @@ computer. But for other szenarios an outside access could be helpful.
 
 ### Option 1. Using tunnel (e.g. ngrok)
 
+There are many programs out there with which you can publish a web service to the whole world.
+Don't be afraid, some of these services uses very cryptic server names, that your service can't be found accidentally.
+One and free of this services is [ngrok](https://ngrok.com/). After signing up (for free), downloading the single executable,
+setup the authentification by calling 'ngrok config add-authtoken <your-auth-token>'
+you can start accessing your backend by typing
+
+    ngrok http 8080
+
+or
+
+    ngrok http 80
+    
+to access the frontend.
+
 ### Option 2. Deploying on Google App Engine
 
 
@@ -117,8 +134,18 @@ Continuous Deployment.
 
 This can be achieved by using [GitHub Actions](https://docs.github.com/en/actions)
 (because we use this side to host our source code repository anyway), next to many other CI/CD tools (e.g.
-[Jenkins](https://www.jenkins.io/), [Octopus](https://octopus.com/), [Spinnaker](https://spinnaker.io/).
+[Jenkins](https://www.jenkins.io/), [Octopus](https://octopus.com/), [Spinnaker](https://spinnaker.io/)).
 
+You can setup a GitHub Action and trigger a process to build, test, and deploy your fresh comitted source code
+into a testing or production stage. There are different triggers (e.g. push, pull requests, and manually)
+and a lot of plugins available to transfer the software package to Google App Engine, Amazon Web Services,
+Microsoft Azure, or any other server.
+
+The lecture stops here, because this topic will lasts a lot of more pages...
+
+# Exercise
+
+# Quiz
 
 ## Links and Sources
 
