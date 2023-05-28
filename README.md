@@ -188,11 +188,25 @@ Have fun!
   - [Google Cloud](https://cloud.google.com/)
   - [Amazon Web Services](https://aws.amazon.com)
   - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
+- Virtual Box and Virtual Appliance
+  - [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads) 
+  - [Open Virtual Appliance file](https://cloud.nstweb.de/s/b8BnXxajW9eqLr8)
+  - [Portainer app](https://www.portainer.io/)
 - Database provider and tools
   - [MongoDB Atlas](https://www.mongodb.com/atlas/database)
   - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- Tunnel
+  - [ngrok](https://ngrok.com/)
+- Deployment
+  - [Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk)
+  - [GitHub Actions](https://docs.github.com/en/actions)
+  - [Jenkins](https://www.jenkins.io/)
+  - [Octopus](https://octopus.com/)
+  - [Spinnaker](https://spinnaker.io/)
 - Other stuff
+  - [IDEA IntelliJ](https://www.jetbrains.com/idea/)
   - [JDK Development Kit 17.0.7 downloads](https://www.oracle.com/java/technologies/downloads/#java17)
   - [Spring Initializr](https://start.spring.io/)
   - [Postman](https://www.postman.com/downloads/)
+  - [Visual Stdio Code](https://code.visualstudio.com/)
   - [Node.js](https://nodejs.org/en)
