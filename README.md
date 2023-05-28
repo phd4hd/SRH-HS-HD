@@ -1,4 +1,4 @@
-# Teaching lecture about system development using the example of a fullstack application
+# Lecture about system development by writing a fullstack application
 
 May, 31st, 2023, 1:30 pm
 
