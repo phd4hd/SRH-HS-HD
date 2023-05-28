@@ -55,7 +55,8 @@ Or you can open it world wide with the IP address **0.0.0.0** and remove the oth
 
 The last thing is to connect (right next to your cluster name) and no matter which connection method you use
 (best to use Compass because we will need it in the next section),
-the important information is the connection string, similar to 'mongodb+srv://user:password@cluster0.6ifwjf9.mongodb.net/'.
+the important information is the connection string, similar to
+**[mongodb+srv://user:password@cluster0.6ifwjf9.mongodb.net](mongodb+srv://user:password@cluster0.6ifwjf9.mongodb.net)**.
 Copy this information and then you are finished and can start using the database.
 Because it is freshly created it is empty, so see next section.
 
@@ -64,6 +65,23 @@ Because it is freshly created it is empty, so see next section.
 There are many database managing tools, some for SQL databases and some more for NoSQL databases. Some are free, some has
 a limited free testing period, and others cost money. We choose a free one, not the best one, but sufficient for our purpose.
 We download [MongoDB Compass](https://www.mongodb.com/try/download/compass) and install it.
+
+After launching the app, you can setup a new connection. Either paste the connection string in the URI field, or use
+the Advanced Connection Options to choose Connection Scheme, Host name, Authentication (Username/Password). If you are
+using the virtual machine, the connection string '**mongodb://madmin:geheim123@localhost:27017**' should be fine. For the
+MongoDB Atlas you should have copied the connection string as described above.
+
+After connecting you should see your databases on left side of the application. There are already some databases there
+even if you setup the database freshly. This is 'admin', 'local', and sometimes 'config'. Just ignore these and create
+a new database with the '+' sign next to the database headline. In the dialog you can enter the database name 'fullstack_db'
+and can also define a collection 'books'. These two information should be fine to create the database.
+
+After creating the collection has no data, so we can add some data by clicking 'ADD DATA' and then 'Import JSON or CVS file'.
+When you download the 'books.json' file, then select this one, leave to import dialog as it is, and click 'Import'.
+You have now 12 documents (and 1 indexes) in your database.
+
+The other needed collection 'reviews' don't need to be setup, it will be automaticall created by the backend as soon as
+data comes in.
 
 ## Step 3 : Writing the backend
 
@@ -78,16 +96,35 @@ Again, find the instruction and the source code of the **frontend** also [here o
 The example we discussed is for the development stage only. We have a local Mongo database (if you're using the virtual machine),
 the backend is running on the local machine (via port 8080) and the frontend is also running on the local machine (port 80).
 
+The next stage is the testing stage. Therefore the QA team should have access to both server, the backend and the frontend.
+If your QA team is working in the same network segment the development setting might be fine to access the services from another
+computer. But 
 
+### Option 1. Using tunnel (e.g. ngrok)
+
+
+### Option 2. Deploying on Google App Engine
 
 
 ## Links and Sources
 
-- [Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course](https://www.youtube.com/watch?v=5PdEmeopJVQ)
-  - [Source Code of the backend](https://github.com/fhsinchy/movieist)
-  - [Source Code of the frontend](https://github.com/GavinLonDigital/movie-gold-v1)
-- [JDK Development Kit 17.0.7 downloads](https://www.oracle.com/java/technologies/downloads/#java17)
-- [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-- [Spring Initializr](https://start.spring.io/)
-- [Node.js](https://nodejs.org/en)
-- [Open Library](https://openlibrary.org/)
+- Another lecture about fullstack development (YouTube, similarity is intended)
+  - [Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course](https://www.youtube.com/watch?v=5PdEmeopJVQ)
+    - [Source Code of the backend](https://github.com/fhsinchy/movieist)
+    - [Source Code of the frontend](https://github.com/GavinLonDigital/movie-gold-v1)
+- Books and Cover images
+  - [Open Library](https://openlibrary.org/)
+  - [Books JSON Datafile]()
+- Cloud, Storage and Computing Power provider
+  - [Google Cloud](https://cloud.google.com/)
+  - [Amazon Web Services](https://aws.amazon.com)
+  - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
+- Database provide
+  - [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+- Database tools
+  - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- Other stuff
+  - [JDK Development Kit 17.0.7 downloads](https://www.oracle.com/java/technologies/downloads/#java17)
+  - [Spring Initializr](https://start.spring.io/)
+  - [Postman](https://www.postman.com/downloads/)
+  - [Node.js](https://nodejs.org/en)
