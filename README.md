@@ -164,10 +164,10 @@ The lecture stops here, because this topic will lasts a lot of more pages...
 # Exercise
 
 To improve and check your expertise I added an exercise in the subfolder.
-If it is to difficult to find the solution I give some tipps in another subfolder.
+If it is too difficult to find the solution I give some tipps in another subfolder.
 Please try first to solve the problem without the help, but after several hours of failure you
 can read my tipps.
-    
+
 # Quiz
 
 At the end of the lecture I will start a quiz. Here is the link to the quiz side.
