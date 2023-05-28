@@ -123,10 +123,24 @@ to access the frontend.
 
 ### Option 2. Deploying on Google App Engine
 
-If you have an Google Cloud account (there is some free test month), you can deploy your app to the Google App Engine.
+If you have an Google Cloud account (they have a free test month), you can deploy your app to the Google App Engine.
 This step is of course much more complicated because it offers so many possibilities to rent cloud services and deploy
 your application.
 
+An easy way is to deploy the application on a source basis. Log in to your Google Cloud account, create a new project
+(any name is sufficient), and setup the Google App Engine (if you don't find the menu on the left side, just enter
+'app engine' in the search box above). After you created an application and chose your region you are ready to deploy.
+For this you need to download the [Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk), install it and
+follow the steps to authorize with your account and project (calling 'gcloud init'). Then in most cases a call to
+
+        gcloud app deploy
+        
+will do the trick and report if successful your website where you can access your application.
+
+Unfortunately if anything goes wrong (and in my cases, a lot of goes wrong) you have to read the build logs
+and research what is the problem and try to fix it. In my case there were some missing rights of the build manager,
+a wrong chosen Java JDK (11), and in one case I need to fix some files locally that the build process in the cloud
+could complete successfully.
 
 ## Step 6 : Deploying (CI/CD)
 
@@ -149,9 +163,17 @@ The lecture stops here, because this topic will lasts a lot of more pages...
 
 # Exercise
 
-    
+To improve and check your expertise I added an exercise in the subfolder.
+If it is to difficult to find the solution I give some tipps in another subfolder.
+Please try first to solve the problem without the help, but after several hours of failure you
+can read my tipps.
     
 # Quiz
+
+At the end of the lecture I will start a quiz. Here is the link to the quiz side.
+Have fun!
+
+[Slido](slido)
 
 ## Links and Sources
 
