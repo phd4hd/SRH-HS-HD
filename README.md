@@ -173,7 +173,9 @@ can read my hints.
 At the end of the lecture I will start a quiz. Here is the link to the quiz side.
 Have fun!
 
-[Slido](slido)
+![grafik](https://github.com/phd4hd/SRH-HS-HD/assets/104060003/d3b1e2b2-ae45-4d8b-ba34-06d1ebdc63ca)
+
+[Strg/Ctrl/Cmd + Click here for the quiz](https://app.sli.do/event/8Lv2NR4ZdimRi8M5gz8NRr)
 
 ## Links and Sources
 
