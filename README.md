@@ -177,6 +177,11 @@ Have fun!
 
 ## Links and Sources
 
+- Books about full stack development (via Amazon)
+  - [Full Stack Development with Spring Boot and React](https://www.amazon.de/Full-Stack-Development-Spring-React/dp/1801816786)
+  - [Fullstack-Entwicklung (german)](https://www.amazon.de/Webentwicklung-Handbuch-Fullstack-Entwickler-Seiten-Roadmap/dp/3836290847)
+  - [Full Stack Web Development for Beginners](https://www.amazon.de/Full-Stack-Web-Development-Beginners/dp/B092P76L9Y)
+  - [Full Stack Web Development](https://www.amazon.de/FULL-STACK-WEB-DEVELOPMENT-Development-ebook/dp/B0BBSRBMB8)
 - Another lecture about fullstack development (YouTube, similarity is intended)
   - [Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course](https://www.youtube.com/watch?v=5PdEmeopJVQ)
     - [Source Code of the backend](https://github.com/fhsinchy/movieist)
@@ -206,6 +211,7 @@ Have fun!
 - Other stuff
   - [IDEA IntelliJ](https://www.jetbrains.com/idea/)
   - [JDK Development Kit 17.0.7 downloads](https://www.oracle.com/java/technologies/downloads/#java17)
+  - [Git Version Control](https://git-scm.com/downloads)
   - [Spring Initializr](https://start.spring.io/)
   - [Postman](https://www.postman.com/downloads/)
   - [Visual Stdio Code](https://code.visualstudio.com/)
