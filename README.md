@@ -1,4 +1,4 @@
-# Lecture about system development by writing a fullstack application
+# Lecture about system development by writing a full stack application
 
 May, 31st, 2023, 1:30 pm
 
@@ -8,9 +8,9 @@ May, 31st, 2023, 1:30 pm
 
 A short introduction of myself can be found [in these slides](introduction_dillinger.pdf)
 
-# Building a fullstack application
+# Building a full stack application
 
-A fullstack application consist of more than one software components, normally a backend and a frontend.
+A full stack application consist of more than one software components, normally a backend and a frontend.
 In most cases the backend handles to connection to a database (e.g. MongoDB) and the frontend consist of an user interface (e.g. website).
 
 This application is about books borrowed from [Open Library](https://openlibrary.org/) and their reviews.
