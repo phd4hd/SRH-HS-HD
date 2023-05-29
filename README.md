@@ -2,7 +2,7 @@
 
 May, 31st, 2023, 1:30 pm
 
-[Slides of the lectures](link)
+[Slides of the lectures](fullstack.pdf)
 
 ## Before: a few information about me
 
